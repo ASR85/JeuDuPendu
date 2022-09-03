@@ -63,7 +63,7 @@
                 android:fontFamily="casual"
                 android:gravity="center_vertical"
                 android:paddingLeft="5dp"
-                android:text="Annaëlle, Thiméan, Simon, Amélie et Romane "
+                android:text="Alex, Tiago, Eyline"
                 android:textColor="@color/rougeFonce"
                 android:textSize="20sp" />
         </LinearLayout>
