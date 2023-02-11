@@ -21,7 +21,7 @@ public class MainActivity extends AppCompatActivity {
     private ImageView iv7;
     private ImageView iv8;
     private ImageView iv9;
-    private ImageView iv10;
+    private ImageView ivRegle;
 
 
     @Override
@@ -39,8 +39,9 @@ public class MainActivity extends AppCompatActivity {
         iv6 = (ImageView) findViewById(R.id.iv6);
         iv7 = (ImageView) findViewById(R.id.iv7);
         iv8 = (ImageView) findViewById(R.id.iv8);
-        iv9 = (ImageView) findViewById(R.id.iv8);
-        iv10= (ImageView) findViewById(R.id.iv10);*/
+        iv9 = (ImageView) findViewById(R.id.iv8);*/
+
+        ivRegle= (ImageView) findViewById(R.id.ivRegle);
 
 
         ivTout.setOnClickListener(new View.OnClickListener() {
@@ -76,6 +77,14 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+
+        ivRegle.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent fenetreJeux = new Intent(MainActivity.this, FenetreRegle.class);
+                startActivity(fenetreJeux);
+            }
+        });
 
     }
 }
